@@ -42,8 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         sharedPreferences = this.getPreferences(Context.MODE_PRIVATE)
 
-        sharedViewModel =
-            ViewModelProvider(this).get(SharedViewModel::class.java)
+        sharedViewModel = ViewModelProvider(this).get(SharedViewModel::class.java)
 
         if (sharedViewModel.isDark) {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
@@ -82,8 +81,7 @@ class MainActivity : AppCompatActivity() {
             if (!isSameFragment) {
                 when (it.itemId) {
                     R.id.bookmarksItem -> launchFragment(
-                        supportFragmentManager,
-                        BookmarksFragment()
+                        supportFragmentManager, BookmarksFragment()
                     )
 
                     R.id.homeItem -> launchFragment(supportFragmentManager, StartFragment())
