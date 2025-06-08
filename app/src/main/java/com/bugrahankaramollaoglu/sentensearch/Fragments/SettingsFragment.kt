@@ -63,8 +63,6 @@ class SettingsFragment : Fragment() {
             binding.termsCard,
         )
 
-
-
         settingButtons.forEach { textView ->
             textView.setOnClickListener {
                 when (textView.id) {

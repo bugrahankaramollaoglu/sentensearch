@@ -118,7 +118,6 @@ fun calculateTotalResults(
 }
 
 
-
 fun formatTotalNumber(input: String): String {
     val number = input.toDoubleOrNull()
 
@@ -286,7 +285,6 @@ fun clearHistory(
     }
 }
 
-
 fun exportSentences(sharedViewModel: SharedViewModel, context: Context) {
     val formattedExportText = buildString {
         sharedViewModel.bookmarkedSentences.forEachIndexed { index, sentence ->
@@ -299,8 +297,7 @@ fun exportSentences(sharedViewModel: SharedViewModel, context: Context) {
     intent.putExtra(
         Intent.EXTRA_TEXT,
         formattedExportText.trim()
-    ) // trim to remove trailing newline
+    )
     intent.type = "text/plain"
     context.startActivity(Intent.createChooser(intent, "Share To:"))
-
 }

@@ -63,7 +63,6 @@ class SharedViewModel(application: Application) : AndroidViewModel(application) 
         saveBookmarkedSentences()
     }
 
-
     fun clearBookmarkedSentences() {
         bookmarkedSentences = mutableListOf()
         saveBookmarkedSentences()
@@ -93,6 +92,5 @@ class SharedViewModel(application: Application) : AndroidViewModel(application) 
 
         historyAdapter?.notifyDataSetChanged()
     }
-
 
 }

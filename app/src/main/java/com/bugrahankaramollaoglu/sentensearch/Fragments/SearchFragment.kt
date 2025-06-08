@@ -176,6 +176,7 @@ class SearchFragment : Fragment(), TextToSpeech.OnInitListener {
                     hideAll(binding)
                     binding.sentenceNotFoundImage.visibility = View.VISIBLE
                 } else if (isQueryValid(query)) {
+
                     fetchDefinition(
                         query,
                         binding,
@@ -189,7 +190,9 @@ class SearchFragment : Fragment(), TextToSpeech.OnInitListener {
                     if (sharedViewModel.isVibration) {
                         vibrate(requireContext(), sharedViewModel)
                     }
+
                     setSentences(query)
+
                     hideAll(binding)
 
                     if (filteredSentences.isEmpty()) {
