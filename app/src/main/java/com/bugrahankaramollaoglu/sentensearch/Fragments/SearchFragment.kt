@@ -89,6 +89,7 @@ class SearchFragment : Fragment(), TextToSpeech.OnInitListener {
         super.onViewCreated(view, savedInstanceState)
 
         binding.goBackArrow.setOnClickListener {
+            Log.d("mesaj","tıklanıyor ama")
             requireActivity().supportFragmentManager.popBackStack()
         }
 

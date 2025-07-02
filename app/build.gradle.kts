@@ -14,7 +14,7 @@ android {
     defaultConfig {
         applicationId = "com.bugrahankaramollaoglu.sentensearch"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 3
         versionName = "3.0"
 
@@ -48,7 +48,7 @@ dependencies {
     implementation(libs.okhttp)
     implementation(libs.androidx.media)
 
-    implementation (libs.androidx.core.splashscreen)
+    implementation(libs.androidx.core.splashscreen)
 
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.fragment.ktx)

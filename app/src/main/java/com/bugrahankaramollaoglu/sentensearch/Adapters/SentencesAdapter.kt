@@ -103,9 +103,6 @@ class SentencesAdapter(
             holder.binding.recyclerViewBookmark.setImageResource(bookmarkImageRes)
         }
 
-        holder.binding.recyclerViewNumber.setOnClickListener {
-            Log.d("mesaj", "ids_ ${sharedViewModel.bookmarkedSentences}")
-        }
 
         holder.binding.recyclerViewTextView.setOnLongClickListener {
             textToSpeech.setLanguage(Locale.ENGLISH)

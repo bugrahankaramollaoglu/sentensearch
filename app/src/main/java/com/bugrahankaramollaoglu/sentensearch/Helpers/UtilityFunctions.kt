@@ -269,8 +269,9 @@ fun clearHistory(
     val historyList = sharedViewModel.history
     if (historyList != null && historyList.isNotEmpty()) {
         val builder = AlertDialog.Builder(context)
-        builder.setTitle("WARNING")
-        builder.setPositiveButton("Yes") { dialog, which ->
+        builder.setTitle("DİKKAT")
+        builder.setMessage("Arama geçmişini silmek istiyor musunuz?")
+        builder.setPositiveButton("Evet") { dialog, which ->
             // Clear the history list
             historyList.clear()
 
@@ -279,7 +280,7 @@ fun clearHistory(
 
             // Notify the adapter of the data set change
             historyAdapter.notifyDataSetChanged()
-        }.setNegativeButton("No") { dialog, which ->
+        }.setNegativeButton("Hayır") { dialog, which ->
             // Do nothing if the user chooses not to clear the history
         }.create().show()
     }
