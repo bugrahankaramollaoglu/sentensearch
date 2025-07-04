@@ -12,7 +12,7 @@
 | Home Screen | Search Screen | Saved Screen | Settings Screen |
 | ----------- | ----------- | ---------------- | ---------------- |
 | ![Home Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_1.png) | ![Login Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_2.png) | ![Register Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_3.png) | ![Forget Password Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_4.png) |
-| ![Screen Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_5.png) | ![Login Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_6.png) | ![Register Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_7.png) | ![Forget Password Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_8.png) |
+| ![Screen Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_5.png) | ![Login Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_7.png) | ![Register Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_8.png) | ![Forget Password Screen](https://github.com/bugrahankaramollaoglu/sentensearch/blob/main/readme_files/photo_6.png) |
 
 
 Available in **7 languages**:
