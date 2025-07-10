@@ -43,10 +43,8 @@ class SettingsFragment : Fragment() {
 
     }
 
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
 
         makeLocalizationsSettings(sharedViewModel.currentLang, binding)
         themeHelper.applyThemeSettings(sharedViewModel, binding)
@@ -181,7 +179,6 @@ class SettingsFragment : Fragment() {
                     R.id.termsCard -> {
                         openTermsConditions(requireContext())
                     }
-
 
                 }
             }

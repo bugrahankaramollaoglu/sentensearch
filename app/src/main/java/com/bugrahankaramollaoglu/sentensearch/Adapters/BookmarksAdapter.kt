@@ -17,8 +17,7 @@ class BookmarksAdapter(
     private var listener: OnAllUnbookmarkedListener? = null
 
     fun notifyAllUnbookmarked() {
-        if (sharedViewModel.bookmarkedSentences.size == 0) {
-            // Notify the fragment when all sentences are unbookmarked
+        if (sharedViewModel.bookmarkedSentences.isEmpty()) {
             listener?.onAllUnbookmarked()
         }
     }
