@@ -59,7 +59,7 @@ class ViewPagerAdapter(private val context: Context) : PagerAdapter() {
         val slideTitleImage = view.findViewById<ImageView>(R.id.onboardImage_1)
         val slideHeading = view.findViewById<TextView>(R.id.onboardTitle_1)
         val slideDescription = view.findViewById<TextView>(R.id.onboardText_1)
-        val slideExtraImageContainer = view.findViewById<LinearLayout>(R.id.extraImageContainer) // Add this line to find the LinearLayout
+        val slideExtraImageContainer = view.findViewById<LinearLayout>(R.id.extraImageContainer)
 
         slideTitleImage.setImageResource(images[position])
         slideHeading.setText(headings[position])
@@ -79,10 +79,9 @@ class ViewPagerAdapter(private val context: Context) : PagerAdapter() {
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             )
-//            layoutParams.topMargin = 16 // Add some margin to separate from the text
             extraImage.layoutParams = layoutParams
 
-            slideExtraImageContainer.addView(extraImage) // Add the extra image to the LinearLayout
+            slideExtraImageContainer.addView(extraImage)
         }
 
         container.addView(view)
