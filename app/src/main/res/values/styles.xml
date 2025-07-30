@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!-- res/values/styles.xml -->
+<resources>
+
+    <!-- Base application theme -->
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:inputType">text</item>
+        <item name="backgroundColor">@color/color4</item>
+        <item name="android:queryBackground">@android:color/transparent</item>
+        <item name="android:queryHint">"ENTER CUSTOM QUERY HINT"</item>
+        <item name="android:textColor">@color/color5</item>
+    </style>
+
+    <style name="LanguageTheme" parent="@style/Theme.AppCompat.Dialog.Alert">
+        <!-- Add any customizations here -->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/bb</item>
+    </style>
+
+
+</resources>
+

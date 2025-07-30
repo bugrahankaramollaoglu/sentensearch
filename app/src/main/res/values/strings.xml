@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SentenSearch</string>
+    <string name="title_activity_on_boarding">OnBoardingActivity</string>
+    <string name="first_fragment_label">İlk Fragman</string>
+    <string name="second_fragment_label">İkinci Fragman</string>
+    <string name="next">İleri</string>
+    <string name="previous">Geri</string>
+
+    <string name="heading_zero">SentenSearch\'e\n Hoş Geldiniz!</string>
+    <string name="heading_one">Tanım &amp; Telaffuz</string>
+    <string name="heading_two">Cümleler</string>
+    <string name="heading_three">Eş Anlamlılar &amp; Zıt Anlamlılar</string>
+    <string name="heading_four">Çeviri </string>
+    <string name="heading_five">Cümle Kaydetme</string>
+    <string name="heading_six">Kaydedilmiş Cümleler</string>
+
+    <string name="desc_zero">Gerçek hayattan cümlelerle İngilizce öğrenebileceğiniz bir dil öğrenme uygulaması.</string>
+    <string name="desc_one">Yüz binlerce kelimenin tanımı, telaffuzu\nve okunuşuna erişin.</string>
+    <string name="desc_two">50.000\'den fazla her seviyeden cümlelerle\nistediğiniz kelimeyi kolayca öğrenin! Cümleleri dinlemek için uzun basın.</string>
+    <string name="desc_three">Eş/Zıt anlamlı kelimeleri görmek için kartı çevirin.</string>
+    <string name="desc_four">7 farklı dilde arayüz ve çeviri hizmetiyle tanışın\n</string>
+    <string name="desc_five">İstediğiniz cümleyi istediğiniz zaman kaydedin.</string>
+    <string name="desc_six">Kaydettiğiniz cümlelere geri dönün, cihazınıza indirin.</string>
+
+
+</resources>
