@@ -42,7 +42,7 @@ Available in **7 languages**:
 - **Retrofit** – API handling
 - **OkHttp** – Networking
 - **View Binding**
-- **Clean Architecture + MVVM**
+- **MVVM**
 - **Fragments**
 - **JSON Manipulation**
 
